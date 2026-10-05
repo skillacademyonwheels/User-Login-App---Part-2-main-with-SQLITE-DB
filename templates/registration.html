@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Register</h1>
+        </div>
+        <form action="/register" method="post">
+            <div class="msg">{{msg}}</div> <br><br>
+            <input type="text" name="username" id="username" class="textbox" placeholder="Enter your Username"  ><br><br>
+            <input type="text" id="password" name="password" placeholder="Enter your Password"> <br><br>
+            <input type="text" name="email" id="email" placeholder="Enter your Email" class="textbox" > <br><br>
+            <button type="submit" class="btn">Submit</button>
+            <br><br>
+        </form>
+        <p class="bottom">Already have Account <a class="bottom" href="/login">Sign In Here</a></p>
+    </div>
+</body>
+</html>
